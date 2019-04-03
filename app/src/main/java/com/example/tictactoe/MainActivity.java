@@ -123,6 +123,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     private void player2Wins() {
+        player2Points++;
+        Toast.makeText(this, "Player 2 wins!", Toast.LENGTH_SHORT).show();
+        updatePointsText();
+        resetBoard();
     }
 
     private void draw() {
