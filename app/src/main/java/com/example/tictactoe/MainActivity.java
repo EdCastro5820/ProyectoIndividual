@@ -143,5 +143,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 buttons[i][j].setText("");
             }
         }
-
+        roundCount = 0;
+        player1Turn = true;
+        }
     }
